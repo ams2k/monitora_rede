@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Windows"/>
+    <Units>
+      <Unit>
+        <Filename Value="monitora.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6"/>
+        <CursorPos Y="32"/>
+        <UsageCount Value="103"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.splash.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmSplash"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Splash"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="16"/>
+        <CursorPos X="24" Y="32"/>
+        <UsageCount Value="103"/>
+      </Unit>
+      <Unit>
+        <Filename Value="dm/dm.servidor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DMBancoDados"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="DM.Servidor"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="98"/>
+        <CursorPos X="3" Y="32"/>
+        <UsageCount Value="103"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.host.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmHost"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Host"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="233"/>
+        <CursorPos X="3" Y="237"/>
+        <UsageCount Value="100"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.rotulo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmRotulo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Rotulo"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="89"/>
+        <CursorPos X="4" Y="95"/>
+        <UsageCount Value="100"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.rede.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmRedes"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Rede"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="93"/>
+        <CursorPos X="10" Y="98"/>
+        <UsageCount Value="99"/>
+      </Unit>
+      <Unit>
+        <Filename Value="classes/comboboxitemdata.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ComboBoxItemData"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2"/>
+        <CursorPos X="3" Y="14"/>
+        <UsageCount Value="99"/>
+      </Unit>
+      <Unit>
+        <Filename Value="classes/funcoes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Funcoes"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="19"/>
+        <UsageCount Value="99"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objetos/objeto.host.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Objeto.Host"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="549"/>
+        <CursorPos X="23" Y="567"/>
+        <UsageCount Value="99"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objetos/objeto.line.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Objeto.Line"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="39" Y="69"/>
+        <UsageCount Value="99"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objetos/objeto.rotulo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Objeto.Rotulo"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="427"/>
+        <CursorPos X="19" Y="304"/>
+        <UsageCount Value="99"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objetos/objeto.aviso.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Objeto.Aviso"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="224"/>
+        <CursorPos X="25" Y="239"/>
+        <UsageCount Value="99"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.host.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Service.Host"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="191"/>
+        <CursorPos X="3" Y="194"/>
+        <UsageCount Value="99"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.rotulo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Service.Rotulo"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="58"/>
+        <CursorPos X="3" Y="66"/>
+        <UsageCount Value="98"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.rede.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Service.Rede"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="94"/>
+        <CursorPos X="30" Y="99"/>
+        <UsageCount Value="98"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.aviso.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Service.Aviso"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="88"/>
+        <CursorPos X="4" Y="55"/>
+        <UsageCount Value="98"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Main"/>
+        <TopLine Value="119"/>
+        <CursorPos X="15" Y="170"/>
+        <UsageCount Value="71"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.gotify.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Service.Gotify"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="41" Y="8"/>
+        <UsageCount Value="41"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Service.PushGotify"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="61"/>
+        <CursorPos Y="70"/>
+        <UsageCount Value="41"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.gotify.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmGotify"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Gotify"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="47"/>
+        <CursorPos X="23" Y="61"/>
+        <UsageCount Value="41"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.hosttipos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Service.HostTipos"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="208"/>
+        <CursorPos X="73" Y="210"/>
+        <UsageCount Value="30"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.hosttipo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmHostTipo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.HostTipo"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="159"/>
+        <CursorPos X="28" Y="159"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="classes/idioma.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Idioma"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="47" Y="19"/>
+        <UsageCount Value="24"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.principal.pas"/>
+        <ComponentName Value="frmPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Principal"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="241"/>
+        <CursorPos Y="243"/>
+        <UsageCount Value="53"/>
+      </Unit>
+      <Unit>
+        <Filename Value="resources/aviso.lrs"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="18"/>
+      </Unit>
+      <Unit>
+        <Filename Value="resources/background.lrs"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="18"/>
+      </Unit>
+      <Unit>
+        <Filename Value="resources/host.lrs"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="18"/>
+      </Unit>
+      <Unit>
+        <Filename Value="resources/mousehand.lrs"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="18"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/opt/fpcupdeluxe/config_lazarus/onlinepackagemanager/packages/zeosdbo/src/component/ZAbstractConnection.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1099"/>
+        <CursorPos Y="1113"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="classes/Util.ComboBoxItemDatapas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="30" Y="9"/>
+        <UsageCount Value="17"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/opt/fpcupdeluxe/fpcsrc/packages/fcl-db/src/base/db.pas"/>
+        <UnitName Value="DB"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1886"/>
+        <CursorPos X="3" Y="1900"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="sinapse/synsock.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="59"/>
+        <CursorPos X="18" Y="78"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/opt/fpcupdeluxe/lazarus/lcl/widgetset/wslclclasses.pp"/>
+        <UnitName Value="WSLCLClasses"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="413"/>
+        <CursorPos X="16" Y="417"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="sinapse/pingsend.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="514"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/opt/fpcupdeluxe/lazarus/components/lazutils/graphmath.pp"/>
+        <UnitName Value="GraphMath"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="586"/>
+        <CursorPos X="38" Y="600"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/opt/fpcupdeluxe/acbr/Fontes/Terceiros/synalist/pingsend.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="630"/>
+        <CursorPos X="3" Y="650"/>
+        <UsageCount Value="16"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/opt/fpcupdeluxe/lazarus/lcl/include/application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1398"/>
+        <CursorPos X="3" Y="1410"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="mousehand.lrs"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.start.pas"/>
+        <ComponentName Value="frmStart"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Start"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="11" Y="31"/>
+        <UsageCount Value="18"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/opt/fpcupdeluxe/lazarus/lcl/lresources.pp"/>
+        <UnitName Value="LResources"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5321"/>
+        <CursorPos Y="5335"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/opt/fpcupdeluxe/lazarus/lcl/grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="8354"/>
+        <CursorPos Y="8368"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/opt/fpcupdeluxe/fpcsrc/rtl/objpas/sysutils/sysutils.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="108"/>
+        <CursorPos X="3" Y="114"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/opt/fpcupdeluxe/lazarus/lcl/include/customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="563"/>
+        <CursorPos Y="577"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/opt/fpcupdeluxe/config_lazarus/onlinepackagemanager/packages/zeosdbo/src/component/ZDatasetParam.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4571"/>
+        <CursorPos Y="4583"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/opt/fpcupdeluxe/config_lazarus/onlinepackagemanager/packages/zeosdbo/src/component/ZAbstractRODataset.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3983"/>
+        <CursorPos Y="3996"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/opt/fpcupdeluxe/acbr/Fontes/Terceiros/synalist/synsock.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="57"/>
+        <CursorPos X="19" Y="78"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/opt/fpcupdeluxe/lazarus/lcl/extctrls.pp"/>
+        <UnitName Value="ExtCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1227"/>
+        <CursorPos X="20" Y="1120"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/opt/fpcupdeluxe/lazarus/lcl/include/custompanel.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6"/>
+        <CursorPos X="3" Y="26"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="classes/maquinainfo.pas"/>
+        <UnitName Value="MaquinaInfo"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="10" Y="34"/>
+        <UsageCount Value="19"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/opt/fpcupdeluxe/acbr/Fontes/Terceiros/synalist/blcksock.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2695"/>
+        <CursorPos Y="2709"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/opt/fpcupdeluxe/fpcsrc/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="801"/>
+        <CursorPos X="3" Y="816"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/opt/fpcupdeluxe/fpcsrc/rtl/objpas/sysutils/syshelp.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="136"/>
+        <CursorPos X="17" Y="487"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../lazarus-ide/fpcsrc/rtl/objpas/math.pp"/>
+        <UnitName Value="Math"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2033"/>
+        <CursorPos X="3" Y="2035"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../lazarus-ide/lazarus/lcl/include/wincontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4544"/>
+        <CursorPos X="3" Y="4551"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../lazarus-ide/fpcsrc/packages/rtl-extra/src/unix/sockets.pp"/>
+        <UnitName Value="Sockets"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="73" Y="9"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="28">
+      <Position>
+        <Filename Value="objetos/objeto.host.pas"/>
+        <Caret Line="566" Column="15" TopLine="550"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.main.pas"/>
+        <Caret Line="162" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="objetos/objeto.host.pas"/>
+        <Caret Line="566" Column="15" TopLine="546"/>
+      </Position>
+      <Position>
+        <Filename Value="objetos/objeto.host.pas"/>
+        <Caret Line="304" Column="31" TopLine="295"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.main.pas"/>
+        <Caret Line="170" Column="15" TopLine="163"/>
+      </Position>
+      <Position>
+        <Filename Value="objetos/objeto.host.pas"/>
+        <Caret Line="90" Column="23" TopLine="78"/>
+      </Position>
+      <Position>
+        <Filename Value="objetos/objeto.host.pas"/>
+        <Caret Line="567" Column="24" TopLine="549"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="74" Column="11" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="65" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="66" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="67" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="81" Column="29" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="66" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="65" Column="15" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="76" Column="36" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="65" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="66" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="68" Column="7" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="65" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="84" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="65" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="66" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="64" Column="73"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="76" Column="50" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="65" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="66" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="68" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="78" Column="11" TopLine="62"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <Caret Line="85" Column="27" TopLine="60"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <Title Value="Monitoração de Rede Privada"/>
+      <Scaled Value="True"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+        <TextName Value="br.app.code4fun.monitora"/>
+        <TextDesc Value="Monitoração de Rede Privada"/>
+      </XPManifest>
+      <Icon Value="0"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <MajorVersionNr Value="1"/>
+      <StringTable Comments="Monitoração de Rede" CompanyName="AMS Software" FileDescription="Monitoração" LegalCopyright="AMS Software" LegalTrademarks="Aldo Márcio Soares" OriginalFilename="monitoracao" ProductName="Monitoração de Rede" ProductVersion="1.0"/>
+    </VersionInfo>
+    <BuildModes>
+      <Item Name="Linux" Default="True"/>
+      <Item Name="Windows">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="../release/windows/monitora.exe"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <OtherUnitFiles Value="views;dm;classes;objetos;services"/>
+            <UnitOutputDirectory Value="../temp/$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <TargetCPU Value="x86_64"/>
+            <TargetOS Value="win64"/>
+            <SmallerCode Value="True"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <DebugInfoType Value="dsDwarf3"/>
+              <StripSymbols Value="True"/>
+              <UseExternalDbgSyms Value="True"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+        </CompilerOptions>
+      </Item>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+    </RunParams>
+    <RequiredPackages>
+      <Item>
+        <PackageName Value="laz_synapse"/>
+      </Item>
+      <Item>
+        <PackageName Value="EditExtPackage"/>
+      </Item>
+      <Item>
+        <PackageName Value="zcomponentdesign"/>
+      </Item>
+      <Item>
+        <PackageName Value="zcomponent"/>
+      </Item>
+      <Item>
+        <PackageName Value="LCL"/>
+      </Item>
+    </RequiredPackages>
+    <Units>
+      <Unit>
+        <Filename Value="monitora.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.splash.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmSplash"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Splash"/>
+      </Unit>
+      <Unit>
+        <Filename Value="dm/dm.servidor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DMBancoDados"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="DM.Servidor"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.host.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmHost"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Host"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.rotulo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmRotulo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Rotulo"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.rede.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmRedes"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Rede"/>
+      </Unit>
+      <Unit>
+        <Filename Value="classes/comboboxitemdata.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ComboBoxItemData"/>
+      </Unit>
+      <Unit>
+        <Filename Value="classes/funcoes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Funcoes"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objetos/objeto.host.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Objeto.Host"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objetos/objeto.line.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Objeto.Line"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objetos/objeto.rotulo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Objeto.Rotulo"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objetos/objeto.aviso.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Objeto.Aviso"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.host.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Service.Host"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.rotulo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Service.Rotulo"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.rede.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Service.Rede"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.aviso.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Service.Aviso"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Main"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.gotify.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Service.Gotify"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.pushgotify.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Service.PushGotify"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.gotify.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmGotify"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Gotify"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.hosttipos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Service.HostTipos"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.hosttipo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmHostTipo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.HostTipo"/>
+      </Unit>
+      <Unit>
+        <Filename Value="classes/idioma.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Idioma"/>
+      </Unit>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="../release/linux/monitora"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="views;dm;classes;objetos;services"/>
+      <UnitOutputDirectory Value="../temp/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+      <TargetCPU Value="x86_64"/>
+      <TargetOS Value="linux"/>
+      <Optimizations>
+        <OptimizationLevel Value="2"/>
+      </Optimizations>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf2"/>
+        <StripSymbols Value="True"/>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+    </Linking>
+    <Other>
+      <Verbosity>
+        <ShowLineNum Value="True"/>
+      </Verbosity>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions>
+      <Item>
+        <Name Value="EAbort"/>
+      </Item>
+      <Item>
+        <Name Value="ECodetoolError"/>
+      </Item>
+      <Item>
+        <Name Value="EFOpenError"/>
+      </Item>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

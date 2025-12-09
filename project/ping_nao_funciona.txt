@@ -1,0 +1,16 @@
+
+No linux, o comando ping através do seu APP
+usando a unit laz_synapse, pode não funcionar.
+
+1) execute seu APP como root:
+
+   sudo ./seu_app
+
+ou
+
+2) Habilite a capacidade cap_net_raw (sem precisar de sudo)
+   Em vez de rodar como root, você pode dar ao binário permissão para enviar ICMP:
+
+   sudo setcap cap_net_raw+ep ./seu_programa
+   
+  

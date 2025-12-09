@@ -1,0 +1,17 @@
+object DMBancoDados: TDMBancoDados
+  OnCreate = DataModuleCreate
+  OnDestroy = DataModuleDestroy
+  OldCreateOrder = False
+  Height = 196
+  HorizontalOffset = 370
+  VerticalOffset = 250
+  Width = 228
+  object DBServer: TZConnection
+    ControlsCodePage = cCP_UTF8
+    DisableSavepoints = False
+    Port = 0
+    Protocol = 'sqlite'
+    Left = 109
+    Top = 55
+  end
+end

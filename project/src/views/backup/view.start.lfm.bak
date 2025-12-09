@@ -1,0 +1,19 @@
+object frmStart: TfrmStart
+  Left = 366
+  Height = 353
+  Top = 250
+  Width = 501
+  Caption = 'Start'
+  ClientHeight = 353
+  ClientWidth = 501
+  Position = poDesktopCenter
+  object btnStart: TButton
+    Left = 120
+    Height = 80
+    Top = 120
+    Width = 232
+    Caption = 'Iniciar'
+    TabOrder = 0
+    OnClick = btnStartClick
+  end
+end

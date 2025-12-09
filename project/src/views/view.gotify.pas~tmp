@@ -1,0 +1,88 @@
+unit View.Servidor_API;
+
+{$mode ObjFPC}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, StdCtrls,
+  Buttons, EditExt;
+
+type
+
+  { TfrmServidorAPI }
+
+  TfrmServidorAPI = class(TForm)
+    edtApiHost: TEditExt;
+    edtGotifyChave: TEditExt;
+    edtGotifyApp: TEditExt;
+    edtApiSenha: TEditExt;
+    edtApiUsuario: TEditExt;
+    Image1: TImage;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    panTop: TPanel;
+    spbSalvar: TSpeedButton;
+    procedure FormShow(Sender: TObject);
+    procedure spbSalvarClick(Sender: TObject);
+  private
+
+  public
+
+  end;
+
+var
+  frmServidorAPI: TfrmServidorAPI;
+
+implementation
+
+uses
+  controller.ServidorAPI;
+
+{$R *.lfm}
+
+{ TfrmServidorAPI }
+
+procedure TfrmServidorAPI.spbSalvarClick(Sender: TObject);
+var
+  g: TServidorAPI;
+begin
+  g := TServidorAPI.Create;
+  g.API_Host     := Trim(edtApiHost.Text);
+  g.API_Usuario  := Trim(edtApiUsuario.Text);
+  g.API_Senha    := Trim(edtApiSenha.Text);
+  g.Gotify_App   := Trim(edtGotifyApp.Text);
+  g.Gotify_Chave := Trim(edtGotifyChave.Text);
+
+  if g.Salvar() then
+     ShowMessage('Confiruação salva com sucesso!')
+  else
+     ShowMessage('Falha ao salvar as configurações!');
+
+  g.Free;
+end;
+
+procedure TfrmServidorAPI.FormShow(Sender: TObject);
+var
+  g: TServidorAPI;
+begin
+  g := TServidorAPI.Create;
+
+  if g.Ler() then begin
+    edtApiHost.Text     := g.API_Host;
+    edtApiUsuario.Text  := g.API_Usuario;
+    edtApiSenha.Text    := g.API_Senha;
+    edtGotifyApp.Text   := g.Gotify_App;
+    edtGotifyChave.Text := g.Gotify_Chave;
+  end;
+
+  g.Free;
+
+  edtApiHost.SetFocus;
+end;
+
+end.
+

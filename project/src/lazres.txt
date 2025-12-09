@@ -1,0 +1,1 @@
+lazres host.lrs ./images/pencil_16.png ./images/delete_16.png

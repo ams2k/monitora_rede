@@ -1,0 +1,152 @@
+object frmGotify: TfrmGotify
+  Left = 402
+  Height = 323
+  Top = 250
+  Width = 334
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Servidor Gotify'
+  ClientHeight = 323
+  ClientWidth = 334
+  Color = clWhite
+  Font.Name = 'Sans'
+  OnShow = FormShow
+  Position = poMainFormCenter
+  object panTop: TPanel
+    Left = 0
+    Height = 41
+    Top = 0
+    Width = 334
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    Caption = 'Push Gotify Config'
+    ClientHeight = 39
+    ClientWidth = 332
+    Color = 15915458
+    Font.Height = -19
+    Font.Name = 'Sans'
+    ParentBackground = False
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 4
+    object Image1: TImage
+      Left = 4
+      Height = 33
+      Top = 4
+      Width = 36
+      Center = True
+      Picture.Data = {
+        105442475241416E696D6174656447696647494638396110001000F601310000
+        0033333337383C3A3C401B435C144B6746484B17516D4A4B4C3850672F556B26
+        59735153584C5A612960793360755A5A5B55596D5A5C6247626E2967835A5C6B
+        2D6C89496A7861647466666632718F6A6C714376893877956B6B7B616F7E6B71
+        89427E986F728766778F4283A079797B5D7F95787A876981904C88A0797C9076
+        7E955E899F8383847A82994E90AC6F8B9D8284998787895395B36D90A4848C9C
+        8E8F978C909D8B8FA35C9FBC8C92A89495A6839CB09999999599A8979CAB9B9D
+        AF8EA4B59CA0B56CB0CD90A8B69FA3AF8EAABAA3A4AD9FA4B571B3CAA5A6B5A2
+        A8BC98AEBAA9AAB7A6ACBEADADB37BBCCD78BBD7ACB0BEB1B1B6AEB0C3AFB4B5
+        A4B6C6AEB3C3B3B3BF82C5DFB3B9CAB5BAC9B4BACBBBBBBBBBBFC8BABFD0B4C8
+        D3BFC4D0C0C5D7C3C6D6BDCBD299D9E89CDDEAC9CEDDCACEDCCDCFD9CBD5DBD4
+        D4D6D3D4DCCFD4E4D3D8E6D9DDE6DFDFE5DBE0F0E4E6EEE2E8F5E5E9F5E9EDF9
+        EFEFF0EDF0F6F6F8FA00000000000000000000000000000000000000000021F9
+        0405140000002C00000000100010000007F980000076706961584D4A48403F3B
+        76826C48545B636D6F6F6D68636E413064004A72615B574E8B40A82650592444
+        4A6E4E4E3FB14E150C372966592F0E4D6F5A0C013E5A5A01195D2143391D0B4D
+        726206033B62621B5D5D131616074C4A746D0C06456D6D19101B6156286A0045
+        7471120C527171020C63716753823F73751206BCD4A9738E0D9D2FFB00E08883
+        A7450B1977C0342801E70E958431DCE0D9D0A30A87242F1EC0A123E489201563
+        EEB44070A14C99211A8CBCD1611280082E71D260611125CA0C0A34B4B848E861
+        891B376D78742061A1C08811151E01C0E002478D1520121050F0C1C614A9008E
+        44C070C2EB1A4168D30602003B
+      }
+      Stretch = True
+      Transparent = True
+    end
+  end
+  object edtApiHost: TEditExt
+    Left = 12
+    Height = 31
+    Top = 71
+    Width = 312
+    AutoSelect = False
+    Color = clWhite
+    Font.Name = 'Sans'
+    MaxLength = 100
+    ParentFont = False
+    TabOrder = 0
+    FocusColor = 14024703
+    FocusColorText = clBlue
+  end
+  object Label1: TLabel
+    Left = 14
+    Height = 19
+    Top = 51
+    Width = 70
+    Caption = 'Gotify Host'
+  end
+  object edtApiUsuario: TEditExt
+    Left = 10
+    Height = 31
+    Top = 231
+    Width = 312
+    AutoSelect = False
+    MaxLength = 100
+    TabOrder = 3
+    FocusColor = 14024703
+    FocusColorText = clBlue
+  end
+  object Label2: TLabel
+    Left = 14
+    Height = 19
+    Top = 211
+    Width = 89
+    Caption = 'Gotify Usuário'
+  end
+  object edtGotifyApp: TEditExt
+    Left = 10
+    Height = 31
+    Top = 125
+    Width = 312
+    AutoSelect = False
+    MaxLength = 100
+    TabOrder = 1
+    FocusColor = 14024703
+    FocusColorText = clBlue
+  end
+  object Label4: TLabel
+    Left = 14
+    Height = 19
+    Top = 105
+    Width = 107
+    Caption = 'Gotify App Nome'
+  end
+  object edtGotifyChave: TEditExt
+    Left = 10
+    Height = 31
+    Top = 177
+    Width = 312
+    AutoSelect = False
+    MaxLength = 100
+    TabOrder = 2
+    FocusColor = 14024703
+    FocusColorText = clBlue
+  end
+  object Label5: TLabel
+    Left = 14
+    Height = 19
+    Top = 157
+    Width = 79
+    Caption = 'Gotify Chave'
+  end
+  object spbSalvar: TSpeedButton
+    Left = 104
+    Height = 38
+    Top = 276
+    Width = 132
+    Caption = '    Salvar'
+    Images = frmMain.imgListMain16
+    ImageIndex = 8
+    OnClick = spbSalvarClick
+  end
+end

@@ -1,0 +1,42 @@
+unit View.Start;
+
+{$mode ObjFPC}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls;
+
+type
+
+  { TfrmStart }
+
+  TfrmStart = class(TForm)
+    btnStart: TButton;
+    procedure btnStartClick(Sender: TObject);
+  private
+
+  public
+
+  end;
+
+var
+  frmStart: TfrmStart;
+
+implementation
+
+uses
+  View.Main;
+
+{$R *.lfm}
+
+{ TfrmStart }
+
+procedure TfrmStart.btnStartClick(Sender: TObject);
+begin
+  frmMain := TfrmMain.Create(Sender);
+  frmMain.Show;
+end;
+
+end.
+
