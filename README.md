@@ -10,3 +10,7 @@
   Instale o app Gotify em seu celular e configure para sua conta no Gotify server (do seu docker).
   
 - O envio de notificação funciona, mas ainda estou trabalhando em seu aprimoramento.
+
+<br>
+
+![Tela Principal](images/monitora_01.png)
